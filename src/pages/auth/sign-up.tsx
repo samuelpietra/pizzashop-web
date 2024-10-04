@@ -28,7 +28,6 @@ export function SignUp() {
 
   async function handleSignUp(data: SignUpForm) {
     try {
-      console.info('🔴 data: ', data)
       await new Promise((resolve) => setTimeout(resolve, 2000))
       toast.success('Restaurant successfully registered.', {
         action: {
